@@ -1,0 +1,103 @@
+html{
+    background-color: rgb(177, 177, 177);
+}
+
+  #hi{
+    
+    border: 3px solid white;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+  }
+  .name{
+    border-top-left-radius: 25px;
+    border-top-right-radius:25px ;
+    padding-top: 20px;
+
+  }
+  .title{
+    
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius:25px ;
+  }
+  .name,.title{
+
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  #dash{
+    
+    width: max-content; 
+    border: 2px dashed rgb(42, 195, 255);
+    color: rgb(40, 190, 250);
+   
+
+  }
+  .about{
+    display: block;
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+  .coding{
+    border-radius: 25px;
+    background-color: white;
+    display: block;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .table{
+    text-align: center;
+    width: 90%;
+    border-collapse: collapse;
+
+  }
+  .skill,.contact{
+    padding-bottom: 20px;
+    border-radius: 20px;
+    background-color: white;
+  }
+  #java,#html,#css{
+    width: 800px;
+    height:35px;
+  }
+  #name1,#email,#message{ 
+   width: 60%;
+  }
+  #btn{
+    width: 60%;
+    border: 1px solid rgb(55, 185, 236);
+    color: white;
+    background-color: rgb(55, 185, 236);
+    
+  }
+.tablei{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 70px;
+}
+#pi{
+  font-size: 20px;
+  padding-bottom: 50px;
+  text-align: center;
+  
+}
+.last{
+  display: flex;
+  align-self: center;
+}
+#message{
+  height: 100px;
+}
+
+  
